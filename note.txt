@@ -1,0 +1,14 @@
+here for exmple we are given the head of singly linked list 
+
+and a set of items (int values ) 
+
+we want to delete all the element in the orginal linked list that their node's values appear 
+in this set 
+
+as we khnow in a linked list we can not access the element(nodes) by index 
+so we need to get a pointer for the head and keep traversing the list node by node and 
+for each node we cheak if the value of this node is in the set or not oky .. 
+it it's present we just update the next pointer to make it point to the next of next 
+
+and then just incrementing the pointer and then repeat the process 
+until returning the dummy.next which the refrence of the head of the mutated input linked list oky 
